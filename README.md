@@ -6,6 +6,12 @@
 
 兩者皆支援基本的 CRUD 操作，並將資料儲存在本機 JSON 檔案中。
 
+請在終端機輸入以下指令，就可以獲取這個資料夾囉！
+
+```bash
+git clone https://github.com/EntropiaTsai/restfulapi_database.git
+```
+
 ---
 
 ## 📦 環境需求
