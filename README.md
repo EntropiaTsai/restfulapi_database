@@ -67,6 +67,9 @@ Swagger UI 測試介面：
 ### 🔹 Flask 測試範例
 
 ```bash
+# 查詢目前資料（GET）
+curl http://127.0.0.1:5000/hello |jq
+
 # 新增資料
 curl -X POST -H "Content-Type: application/json" \
      -d '{"name": "小明"}' \
