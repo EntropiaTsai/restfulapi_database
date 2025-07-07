@@ -68,7 +68,7 @@ Swagger UI 測試介面：
 
 ```bash
 # 查詢目前資料（GET）
-curl http://127.0.0.1:5000/hello |jq
+curl http://127.0.0.1:5000/hello
 
 # 新增資料
 curl -X POST -H "Content-Type: application/json" \
